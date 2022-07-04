@@ -15,7 +15,7 @@ h2 {
     color: orange;
 }
 
-.section {
+.flexible-section {
     display: flex;
     padding-bottom: 50px;
     margin-bottom: 100px;
@@ -39,8 +39,14 @@ h2 {
     font-weight: 700;
 }
 
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.expreience-section {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.expreience-area {
+    box-shadow: 10px 10px 40px gray;
     margin-right: 40px;
     padding-bottom: 50px;
 }
@@ -58,6 +64,14 @@ h2 {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+#full-stack-item {
+    border-left: 7px solid tomato;
+}
+
+#baby-stack-item {
+    border-left: 7px solid blue;
 }
 
 footer {
